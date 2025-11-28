@@ -23,3 +23,51 @@ Python と GitHub を中心に構築中です。（WIP）
 ---
 
 ## 📁 フォルダ構成
+network-automation-portfolio/
+├── python/ # Netmiko を使った CLI 自動化
+├── api/ # RESTCONF / API 自動化（予定）
+├── ansible/ # Ansible Playbook（予定）
+└── README.md
+
+
+---
+
+## 🛠 使用技術（予定含む）
+
+- Python 3.10
+- Netmiko（SSH自動化）
+- Requests（REST API）
+- Ansible（構成管理）
+- YAML / Jinja2
+- Git / GitHub
+
+---
+
+## 🚀 これから追加する自動化内容
+
+### ✔ Python（Netmiko）
+- show コマンド取得  
+- Config バックアップ  
+- VLAN / Loopback / OSPF の自動投入  
+
+### ✔ RESTCONF / API
+- GET：インターフェース情報取得  
+- PUT：Loopback インターフェース作成  
+- Postman 連携  
+
+### ✔ Ansible
+- config バックアップ  
+- VLAN 追加  
+- Loopback/OSPF 作成（Jinja2 テンプレ使用）  
+
+---
+
+## 📌 目的
+
+- ネットワーク自動化の基礎〜応用スキルを証明
+- Python・API・Ansible を扱えることを可視化
+- 自動化エンジニアとしての実務レベルを示す
+
+---
+
+（WIP: 現在ポートフォリオ構築中）
